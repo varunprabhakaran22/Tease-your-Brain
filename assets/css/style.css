@@ -1,0 +1,31 @@
+:root{
+    --color-body:#ffffff;
+    --color-main:#18202C;
+    --color-secondary:#BBDEFB;
+    --color-supplementary-1:#655D20;
+}
+
+.vbodyColor{
+    background-color:var(--color-supplementary-1);
+
+}
+.vleft{
+    background-color: var(--color-main);
+}
+.vright{
+    background-color: var(--color-secondary);
+}
+.vlogo{
+    height:45vh;
+    width:50%;
+    margin:7%;
+    padding: 10px;
+}
+.vstartButton{
+    height: 15vh;
+    width: 35%;
+    background-color: var(--color-main);
+    margin: 40%;
+    padding: 15px;
+
+}
