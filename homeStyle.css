@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+#background{
+    background-color: #0F164E;
+    height: 100vh;
+    }
+.logoName{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    position: relative;
+    top: 15vh;
+    left: 40%;
+}
+.start{
+    position: relative;
+    top: 60vh;
+    background-color: white;
+    left: 39%;
+    height: 7%;
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+}
