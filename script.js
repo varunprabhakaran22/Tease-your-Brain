@@ -8,17 +8,17 @@ $(function(){
 
 
  function getJSON(){
-    $.getJSON('database.json',function(json){
+    $.getJSON('db.json',function(json){
         questions = json;
-        // console.log(typeof questions)
-        // console.log(questions)
+        console.log(typeof questions)
+        console.log(questions)
         localStorage.setItem("questions",JSON.stringify(questions))
         let varr=localStorage.getItem("questions");
         let obj=JSON.parse(varr)
 
         const keys=Object.keys(obj)
 
-        // console.log(typeof keys)
+        console.log(typeof keys)
         let b = obj[keys[1]]
         
         let oneValue=b["options"];
