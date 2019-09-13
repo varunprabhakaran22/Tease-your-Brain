@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    min-height: 17%;
+    min-height: 100px;
 }
 .vbodyColor{
     background-color:var(--color-supplementary-1);
@@ -32,10 +32,6 @@
     padding: 15px;
 
 }
-.vappName{
-    color:var(--color-body);
-}
-.vuserName{
-    color:var(--color-body);
-    font-size: 1em;
+.hey{
+    color:red;
 }
