@@ -1,24 +1,66 @@
 {
 	"q1": {
-		"question": "Which one is correct team name in NBA?",
+		"question": "Who lived at 221B, Baker Street, London?",
 		"options": [
-			"New York Bulls",
-			"Los Angeles Kings",
-			"Golden State Warriros",
-			"Huston Rocket"
+			"Sherlock Holmes",
+			"George Walker Bush",
+			"Donald Trump",
+			"prince Harry"
 		],
-		"answer": "Huston Rocket"
+		"answer": "Sherlock Holmes"
 	},
 	"q2": {
-		"question": "Which one is WRONG team name in NBA?",
+		"question": "How many states are there in america",
 		"options": [
-			"New York Bulls",
-			"Los Angeles Kings",
-			"Golden State Warriros",
-			"Huston Rocket"
+			"40",
+			"47",
+			"50",
+			"32"
 		],
-		"answer": "Huston Rocket"
+		"answer": "50"
+	},
+
+	"q3": {
+		"question": "World 4th richest man",
+		"options": [
+			"Jeff Bezos",
+			"Bill Gates",
+			"Bernard Arnault",
+			"Warren Buffett"
+		],
+		"answer": "Warren Buffett"
+	},
+
+	"q4": {
+		"question": "The slogan for which Auto brand is ‘The best or nothing’?",
+		"options": [
+			"Mercedes-Benz",
+			"Honda",
+			"Ford",
+			"Vw"
+		],
+		"answer": "Mercedes-Benz"
+	},
+
+	"q5": {
+		"question": "Which Fighter Jet Is The Fastest?",
+		"options": [
+			"Lockheed Martin F-22 Raptor",
+			"Dassault Mirage 2000",
+			"MiG-31",
+			"McDonnell Douglas F-15"
+		],
+		"answer": "MiG-31"
+	},
+
+	"q6": {
+		"question": "The most peaceful country in the world",
+		"options": [
+			"Iceland",
+			"new zealand",
+			"Denmark",
+			"syria"
+		],
+		"answer": "Iceland"
 	}
 }
-
-

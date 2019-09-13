@@ -21,8 +21,11 @@ $(function(){
         // console.log(typeof keys)
         let b = obj[keys[1]]
         
-        let oneValue=b["options"];
+        let oneValue=b["question"];
         console.log(oneValue[1]);
+        document.getElementsByClassName("question")[0].innerHTML=b;
+
+        // console.log(oneValue[1]);
         // const keys = Object.keys(questions)
         // console.log(keys.length);
         // // [0 -> 1] * 1

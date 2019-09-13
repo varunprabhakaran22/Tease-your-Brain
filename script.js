@@ -8,7 +8,7 @@ $(function(){
 
 
  function getJSON(){
-    $.getJSON('db.json',function(json){
+    $.getJSON('database.json',function(json){
         questions = json;
         console.log(typeof questions)
         console.log(questions)
@@ -23,6 +23,14 @@ $(function(){
         
         let oneValue=b["options"];
         console.log(oneValue[1]);
+
+        $("input[type='button']").click(function(){
+
+        let radioValue = $("input[name='option']:checked").val();
+        console.log(radioValue);
+        })
+        
+        document.getElementsByClassName("quest")[0].innerHTML=oneValue;
         // const keys = Object.keys(questions)
         // console.log(keys.length);
         // // [0 -> 1] * 1
