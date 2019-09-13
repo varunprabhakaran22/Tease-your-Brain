@@ -38,3 +38,33 @@ right: 5%;
     font-size: 36px;
     top: 4vh;
 }
+.questionAndAnswer{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+#next{
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    border: none;
+}
+#prev{
+    position: absolute;
+    top: 60%;
+    left: 16%;
+    border: none;
+}
+#submit{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    border: none;
+    /* display: none; */
+}
+/* #option1{
+    position: absolute;
+    height: 45%;
+    width: 125%;
+    background-color: aquamarine
+} */
