@@ -1,3 +1,5 @@
+/* quiz page styling */
+
 body{
     margin: 0px;
 }
@@ -48,8 +50,8 @@ right: 5%;
 }
 #submit{
     position: absolute;
-    top: 70%;
-    left: 41%;
+    top: 90%;
+    left: 90%;
     border: none;
     width: 7%;
     border-radius: 10px;

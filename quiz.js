@@ -5,10 +5,15 @@
 //     });
 // })
 
+
+// functionalities
+
 let currentQuestion = -1;
 let answer = '';
 let score = 0;
 getNextQues();
+
+// getting the next question
 
 function getNextQues(){
     $.getJSON('data.json',function(data){
@@ -24,9 +29,14 @@ function getNextQues(){
     })
 }
 
+
+// next question function
+
 $('#next').click(function(){
     getNextQues();
 });
+
+// previous question function
 
 $('#prev').click(function(){
     if(currentQuestion >= 1){
@@ -35,6 +45,8 @@ $('#prev').click(function(){
     }   
 });
 
+// checking answer correct or wrong
+
 $('.checkAnswer').click(function(){
     var tempAns = $(this).text();
     console.log(tempAns);
@@ -42,9 +54,10 @@ $('.checkAnswer').click(function(){
         score += 1;
         console.log(score);
 
-    }else{
-        alert("Oops! Wrong Answer")
     }
+    // else{
+    //     alert("Oops! Wrong Answer")
+    // }
 });
 
 $('#submit').click(function(){
