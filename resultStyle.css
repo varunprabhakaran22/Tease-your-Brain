@@ -28,7 +28,7 @@ right: 5%;
 #yourScore{
     position: relative;
     top: 15vh;
-    left: 43.5%;
+    left: 44.5%;
     font-size: 30px;
 }
 .round{
@@ -47,13 +47,13 @@ right: 5%;
     top: 38%;
     left: 43%;
 }
-.medal{
+/* .medal{
     position: relative;
-    top: 3vh;
-    left: 45%;
-    height: 100px;
-    width: 100px;
-}
+    top: 19vh;
+    left: 53%;
+    height: 60px;
+    width: 60px;
+} */
 #Diagnosis{
     position: relative;
     top: 20vh;

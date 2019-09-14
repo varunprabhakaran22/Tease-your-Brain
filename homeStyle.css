@@ -15,11 +15,20 @@ body{
 }
 .start{
     position: relative;
-    top: 60vh;
+    top: 30vh;
     background-color: white;
-    left: 39%;
+    left: 38.5%;
     height: 7%;
     width: 20%;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: aquamarine;
+}
+.logoImg{
+    position: relative;
+    top: 20vh;
+    left: 39%;
 }

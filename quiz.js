@@ -50,5 +50,8 @@ $('.checkAnswer').click(function(){
 $('#submit').click(function(){
     $('.exam-online').hide();
     $('#result-div').show();
-    document.getElementById('yourScore').innerHTML = "Your Score : " +score;
+    $('#next').hide();
+    $('#prev').hide();
+    $('#submit').hide();
+    document.getElementById('score').innerHTML = score;
 });
