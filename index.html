@@ -1,0 +1,71 @@
+
+<!-- quiz page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wit Spiker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+<body>
+    <div class="container-fluid soutLine">
+        <div class="row  header">
+            <div class="col" id="logo">
+             Wit Spiker
+            </div>
+           <div class="col text-right" id="userName">
+            <span class="susername">Satyajit</span></div>
+        </div>
+
+        <!-- Question and option div -->
+
+        <div class="questionAndAnswer exam-online" >
+
+            <!-- Question div -->
+
+            <div class="row" id="question">
+                <p id="ques-div" style="color:black; font-size: 30px;"></p>
+            </div>
+            <div class="row" id="answer">
+
+                 <!-- option div -->
+                
+                <div id="option1" class="checkAnswer"></div> 
+                <div id="option2" class="checkAnswer"></div>
+                <div id="option3" class="checkAnswer"></div>
+                <div id="option4" class="checkAnswer"></div>
+                </div>
+                
+        </div>
+
+            <!-- buttons -->
+
+        <button id="next">next</button>
+        <button id="prev" >prev</button>
+        <button id="submit">submit</button>
+    </div>
+    <div id="result-div">
+
+        
+        <img src="medal.png" class="medal">
+        <div class="row" id="yourScore">
+            Your Score 
+        </div>
+        <div class="round">
+            <p id="score">8</p>
+        </div>
+        <!-- <button id="Diagnosis">Diagnosis</button> -->
+
+
+            
+    </div>
+
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="quiz.js"></script>
+</html>
