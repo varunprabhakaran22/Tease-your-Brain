@@ -8,7 +8,7 @@
                 "Donald Trump",
                 "prince Harry"
             ],
-            "answer": "Sherlock Holmes"
+            "answer": "0"
         },
         {
             "question": "How many states are there in america",
@@ -18,7 +18,7 @@
                 "50",
                 "32"
             ],
-            "answer": "50"
+            "answer": "2"
         },
         {
             "question": "World 4th richest man",
@@ -28,7 +28,7 @@
                 "Bernard Arnault",
                 "Warren Buffett"
             ],
-            "answer": "Warren Buffett"
+            "answer": "3"
         },
         {
             "question": "The slogan for which Auto brand is ‘The best or nothing’?",
@@ -38,7 +38,7 @@
                 "Ford",
                 "Vw"
             ],
-            "answer": "Mercedes-Benz"
+            "answer": "0"
         },
         {
             "question": "Which Fighter Jet Is The Fastest?",
@@ -48,7 +48,7 @@
                 "MiG-31",
                 "McDonnell Douglas F-15"
             ],
-            "answer": "MiG-31"
+            "answer": "2"
         },
         {
             "question": "The most peaceful country in the world",
@@ -58,7 +58,7 @@
                 "Denmark",
                 "syria"
             ],
-            "answer": "Iceland"
+            "answer": "0"
         },
         {
             "question": "Which country will host the 45th G7 summit 2019 ",
@@ -68,7 +68,7 @@
                 "France",
                 "Canada"
             ],
-            "answer": "France"
+            "answer": "2"
         },
         {
             "question": "Which of the following is the capital of Arunachal Pradesh ",
@@ -78,7 +78,7 @@
                 "Imphal",
                 "Panaji"
             ],
-            "answer": "Itanagar"
+            "answer": "0"
         },
         {
             "question": "Which is the largest coffee producing state of India ",
@@ -88,7 +88,7 @@
                 "Karnataka",
                 "Arunachal Pradesh"
             ],
-            "answer": "Karnataka"
+            "answer": "2"
         },
         {
             "question": "Which state has the largest area ",
@@ -98,7 +98,7 @@
                 "Uttar Pradesh",
                 "Rajasthan"
             ],
-            "answer": "Rajasthan"
+            "answer": "3"
         },
         {
             "question": "Which state has the largest population",
@@ -108,7 +108,7 @@
                 "Uttar Pradesh",
                 "Rajasthan"
             ],
-            "answer": "Uttar Pradesh"
+            "answer": "2"
         },
         {
             "question": "Which among the following is not a power of RBI",
@@ -118,7 +118,7 @@
                 "Call of returns",
                 "Control the lending policies of the banks"
             ],
-            "answer": "Nationalization of Banks"
+            "answer": "1"
         },
         {
             "question": "Which among the following is not a power of RBI",
@@ -128,7 +128,7 @@
                 "Call of returns",
                 "Control the lending policies of the banks"
             ],
-            "answer": "Nationalization of Banks"
+            "answer": "1"
         },
         {
             "question": "India's largest city by population",
@@ -138,7 +138,7 @@
                 "Delhi",
                 "Kolkata"
             ],
-            "answer": "Mumbai"
+            "answer": "0"
         },
         {
             "question": "Which state is known as India's spice garden",
@@ -148,7 +148,7 @@
                 "Assam",
                 "Andhra Pradesh"
             ],
-            "answer": "Kerala"
+            "answer": "0"
         }
     ]
 }
