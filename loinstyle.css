@@ -4,5 +4,11 @@
 }
 .background{
     height: 100vh;
+    background-color: #0F164E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginLayout{
     
 }
