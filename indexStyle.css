@@ -50,11 +50,12 @@ right: 5%;
 }
 #submit{
     position: absolute;
-    top: 90%;
-    left: 90%;
+    top: 70%;
+    left: 19%;
     border: none;
-    width: 7%;
+    width: 70px;
     border-radius: 10px;
+    cursor: pointer;
 
     /* display: none; */
 }

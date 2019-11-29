@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    height: 100vh;
+    background-color: rgba(8, 11, 31, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+#loginLayout{
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    /* border-radius: 50px; */
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* opacity: 0.4; */
+}
+.logodiv{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    box-shadow:  0px 3px 1px 0px rgb(100, 100, 100);
+    
+}
+#header{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0F164E;
+}
+span{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    /* color: #0F164E; */
+}
+input{
+    position: relative;
+    top: 5%;
+    margin: 20px auto;
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #0F164E;
+    padding: 14px 10px;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    /* border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    transition: 0.25s;
+}
+input::placeholder{
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+input:focus{
+    width: 280px;
+    /* border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    border: 2px solid #2ecc71;
+}
+#submit{
+    position: relative;
+    top: 3%;
+    margin: 20px auto;
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #0F164E;
+    /* padding: 1px 10px; */
+     width: 100px;
+    height: 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+#submit:hover{
+    background-color: #0F164E; 
+    color: white;
+    
+}  
+
