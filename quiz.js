@@ -23,12 +23,7 @@ $(document).ready(function(){
             getNextQues(data);
         });
 
-        // $('#prev').click(function(){
-        //     if(currentQuestion >= 1){
-        //         currentQuestion -= 2;
-        //         getNextQues(data);
-        //     }   
-        // });
+       
 
         $('#submit').click(function(){
             $('.exam-online').hide();
@@ -84,24 +79,3 @@ function getNextQues(data){
 
 
 
-// using fetch
-
-
-//let data='http://localhost:8100/api'
-// let obj;
-// test =()=>{
-//     fetch(data)
-// .then(res=> {return res.json()})
-// .then(i=> obj=i)
-// console.log(obj);
-// // if(currentQuestion+1 < data.length){
-// //                 currentQuestion += 1;
-// //                 document.getElementById('ques-div').innerHTML = data.questions[currentQuestion].question;
-// //                 document.getElementById('option1').innerHTML = data.questions[currentQuestion].options[0];
-// //                 document.getElementById('option2').innerHTML = data.questions[currentQuestion].options[1];
-// //                 document.getElementById('option3').innerHTML = data.questions[currentQuestion].options[2];
-// //                 document.getElementById('option4').innerHTML = data.questions[currentQuestion].options[3];
-// //             //    answer = data.questions[currentQuestion].answer;
-// //             }
-// }
-// test();
