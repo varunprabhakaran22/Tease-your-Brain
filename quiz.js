@@ -12,16 +12,23 @@ $(document).ready(function(){
     }).done(function(data) {
         //this.data = dataNew;
         getNextQues(data);
-        $('#next').click(function(){
+        // $('#next').click(function(){
+        //     getNextQues(data);
+        // });
+        $('.checkAnswer').click(function(){
+            var tempAns = $(this).index();
+            
+            arr.push(tempAns);
+            console.log(arr)
             getNextQues(data);
         });
 
-        $('#prev').click(function(){
-            if(currentQuestion >= 1){
-                currentQuestion -= 2;
-                getNextQues(data);
-            }   
-        });
+        // $('#prev').click(function(){
+        //     if(currentQuestion >= 1){
+        //         currentQuestion -= 2;
+        //         getNextQues(data);
+        //     }   
+        // });
 
         $('#submit').click(function(){
             $('.exam-online').hide();
@@ -67,13 +74,7 @@ function getNextQues(data){
 
 
 
-$('.checkAnswer').click(function(){
-    var tempAns = $(this).index();
-    
-    arr.push(tempAns);
-    console.log(arr)
-     
-});
+
 
 
 

@@ -1,22 +1,26 @@
 body{
     margin: 0px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 #background{
     background-color: #0F164E;
     height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
     }
 .logoName{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     position: relative;
-    top: 15vh;
+    top: 12vh;
     left: 40%;
 }
 .start{
     position: relative;
-    top: 30vh;
+    top: 25vh;
     background-color: white;
     left: 38.5%;
     height: 7%;
@@ -32,4 +36,11 @@ body{
     position: relative;
     top: 20vh;
     left: 39%;
+}
+p{
+    position: relative;
+    top: 18vh;
+    left: 35%;
+    color: white;
+    font-size: 20px;
 }

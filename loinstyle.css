@@ -4,7 +4,7 @@
 }
 .background{
     height: 100vh;
-    background-color: rgb(30, 39, 110);
+    background-color: rgba(8, 11, 31, 1);
     display: flex;
     justify-content: center;
     align-items: center;
